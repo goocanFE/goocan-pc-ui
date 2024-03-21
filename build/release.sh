@@ -24,9 +24,9 @@ then
   npm version $VERSION --message "[release] $VERSION"
   if [[ $VERSION =~ "beta" ]]
   then
-    npm publish --tag beta
+    npm publish --tag beta --registry http://gcnpm.dingyl.com/
   else
-    npm publish
+    npm publish --registry http://gcnpm.dingyl.com/
   fi
   cd ../..
 
@@ -44,8 +44,8 @@ then
 
   if [[ $VERSION =~ "beta" ]]
   then
-    npm publish --tag beta
+    npm publish --tag beta --registry http://gcnpm.dingyl.com/
   else
-    npm publish
+    npm publish --registry http://gcnpm.dingyl.com/
   fi
 fi
