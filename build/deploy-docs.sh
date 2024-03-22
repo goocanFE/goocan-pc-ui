@@ -7,7 +7,7 @@ git config --global user.email "wallement@gmail.com"
 # build site
 npm run deploy:build
 cd temp_web
-git clone --depth 1 -b gh-pages --single-branch git@github.com:goocanFE/goocan-pc-ui.git && cd goocan-pc-ui
+git clone --depth 1 -b gh-pages --single-branch https://github.com/goocanFE/goocan-pc-ui.git && cd goocan-pc-ui
 # build sub folder
 
 SUB_FOLDER='2.15'
