@@ -3,7 +3,7 @@ set -ex
 mkdir temp_web
 npm run deploy:build
 cd temp_web
-git clone --depth 1 -b gh-pages --single-branch https://github.com/ElemeFE/element.git && cd element
+git clone --depth 1 -b gh-pages --single-branch git@codeup.aliyun.com:goocan/fe/basic/goocan-pc-ui.git && cd element
 
 # build sub folder
 SUB_FOLDER='2.15'

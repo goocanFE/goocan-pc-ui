@@ -284,10 +284,7 @@
   <div class="headerWrapper">
     <div id="v3-banner" v-if="isHome">
       <template v-if="lang === 'zh-CN'">
-        您正在浏览基于 Vue 2.x 的文档;
-        <a href="https://element-plus.org/#/zh-CN">点击查看 Vue 3.x 版本。</a>
-        饿了么开源了自研多端框架 MorJS，
-        <a href="https://github.com/eleme/morjs">欢迎点击查看或试用 👏🏻</a>
+        您正在浏览谷瞰基于Element Vue 2.x 的组件库文档;
       </template>
       <template v-else>
         You’re browsing the documentation of Element UI for Vue 2.x version.
