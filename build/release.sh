@@ -18,17 +18,18 @@ then
   # ssr test
   node test/ssr/require.test.js            
 
+  # 暂时不发布主题包，等后面用到了自定义主题
   # publish theme
-  echo "Releasing theme-chalk $VERSION ..."
-  cd packages/theme-chalk
-  npm version $VERSION --message "[release] $VERSION"
-  if [[ $VERSION =~ "beta" ]]
-  then
-    npm publish --tag beta
-  else
-    npm publish
-  fi
-  cd ../..
+  # echo "Releasing theme-chalk $VERSION ..."
+  # cd packages/theme-chalk
+  # npm version $VERSION --message "[release] $VERSION"
+  # if [[ $VERSION =~ "beta" ]]
+  # then
+  #   npm publish --tag beta
+  # else
+  #   npm publish
+  # fi
+  # cd ../..
 
   # commit
   git add -A
