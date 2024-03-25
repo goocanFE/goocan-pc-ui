@@ -5,12 +5,8 @@
       "path": "/changelog"
     },
     {
-      "name": "Element React",
-      "href": "https://elemefe.github.io/element-react/"
-    },
-    {
-      "name": "Element Angular",
-      "href": "https://element-angular.faas.ele.me/"
+      "name": "谷瞰移动端组件库",
+      "href": "https://febasictest.dingyl.com/goocan-mobile-ui/index.html#/zh-CN/"
     },
     {
       "name": "开发指南",
@@ -323,14 +319,6 @@
       "path": "/changelog"
     },
     {
-      "name": "Element React",
-      "href": "https://elemefe.github.io/element-react/"
-    },
-    {
-      "name": "Element Angular",
-      "href": "https://element-angular.faas.ele.me/"
-    },
-    {
       "name": "Development",
       "children": [
         {
@@ -641,14 +629,6 @@
       "path": "/changelog"
     },
     {
-      "name": "Element React",
-      "href": "https://elemefe.github.io/element-react/"
-    },
-    {
-      "name": "Element Angular",
-      "href": "https://element-angular.faas.ele.me/"
-    },
-    {
       "name": "Development",
       "children": [
         {
@@ -957,14 +937,6 @@
     {
       "name": "Changelog",
       "path": "/changelog"
-    },
-    {
-      "name": "Element pour React",
-      "href": "https://elemefe.github.io/element-react/"
-    },
-    {
-      "name": "Element pour Angular",
-      "href": "https://element-angular.faas.ele.me/"
     },
     {
       "name": "Développement",
